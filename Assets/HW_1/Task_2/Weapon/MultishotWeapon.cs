@@ -13,7 +13,8 @@ namespace HW_1.Task2
 
         private Coroutine _currentShotRoutine;
 
-        public MultishotWeapon(IAmmunition ammunition, IBulletFactory bulletFactory, int bulletsInShot, float pauseBetweenBullets, MonoBehaviour monoContext)
+        public MultishotWeapon(IAmmunition ammunition, IBulletFactory bulletFactory,
+            int bulletsInShot, float pauseBetweenBullets, MonoBehaviour monoContext)
         {
             Ammunition = ammunition;
             _bulletFactory = bulletFactory;
