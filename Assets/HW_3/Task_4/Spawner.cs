@@ -12,7 +12,7 @@ namespace Assets.Visitor
         [SerializeField] private EnemyFactory _enemyFactory;
         [SerializeField] private int _maxSpawnWeight = 100;
 
-        private List<Enemy> _spawnedEnemies = new();
+        private List<Enemy> _spawnedEnemies = new List<Enemy>();
 
         private Coroutine _spawn;
         private SpawnWeight _spawnWeight;
